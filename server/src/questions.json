@@ -1,0 +1,723 @@
+
+[
+  {
+    "id": 1,
+    "category": "rekenen",
+    "difficulty": 1,
+    "question": "Hoeveel is 8 × 7?",
+    "answers": ["48", "54", "56", "64"],
+    "correctAnswer": 2,
+    "explanation": "8 × 7 = 56."
+  },
+  {
+    "id": 2,
+    "category": "rekenen",
+    "difficulty": 2,
+    "question": "Een boek kost €12. Je koopt er 3. Hoeveel betaal je?",
+    "answers": ["€24", "€30", "€36", "€42"],
+    "correctAnswer": 2,
+    "explanation": "3 × €12 = €36."
+  },
+  {
+    "id": 3,
+    "category": "rekenen",
+    "difficulty": 3,
+    "question": "Hoeveel is 25% van 240?",
+    "answers": ["40", "50", "60", "80"],
+    "correctAnswer": 2,
+    "explanation": "25% is een kwart. 240 ÷ 4 = 60."
+  },
+  {
+    "id": 4,
+    "category": "rekenen",
+    "difficulty": 4,
+    "question": "Een jas kost €80. Je krijgt 15% korting. Wat betaal je?",
+    "answers": ["€60", "€66", "€68", "€72"],
+    "correctAnswer": 2,
+    "explanation": "15% van €80 is €12. €80 - €12 = €68."
+  },
+  {
+    "id": 5,
+    "category": "rekenen",
+    "difficulty": 5,
+    "question": "Een auto rijdt 180 kilometer in 2 uur en 15 minuten. Wat is de gemiddelde snelheid?",
+    "answers": ["70 km/u", "75 km/u", "80 km/u", "90 km/u"],
+    "correctAnswer": 2,
+    "explanation": "2 uur en 15 minuten is 2,25 uur. 180 ÷ 2,25 = 80 km/u."
+  },
+  {
+    "id": 6,
+    "category": "begrijpend-lezen",
+    "difficulty": 1,
+    "question": "Sara trekt haar regenjas aan en pakt haar paraplu. Wat is waarschijnlijk het weer?",
+    "answers": ["Zonnig", "Regenachtig", "Sneeuwachtig", "Warm en droog"],
+    "correctAnswer": 1,
+    "explanation": "Een regenjas en paraplu wijzen op regenachtig weer."
+  },
+  {
+    "id": 7,
+    "category": "begrijpend-lezen",
+    "difficulty": 2,
+    "question": "Tom oefent elke dag met rekenen. Na een week maakt hij minder fouten. Wat is de belangrijkste conclusie?",
+    "answers": ["Tom vindt rekenen niet leuk", "Oefenen helpt Tom vooruit", "Tom maakt steeds meer fouten", "Tom stopt met rekenen"],
+    "correctAnswer": 1,
+    "explanation": "Door regelmatig te oefenen wordt Tom beter."
+  },
+  {
+    "id": 8,
+    "category": "begrijpend-lezen",
+    "difficulty": 3,
+    "question": "De bibliotheek verlengt haar openingstijden tijdens de examenweek, zodat leerlingen ook 's avonds kunnen studeren. Wat is het doel hiervan?",
+    "answers": ["Minder boeken uitlenen", "Leerlingen extra studietijd bieden", "De bibliotheek sluiten", "Meer personeel ontslaan"],
+    "correctAnswer": 1,
+    "explanation": "De langere openingstijden geven leerlingen meer gelegenheid om te studeren."
+  },
+  {
+    "id": 9,
+    "category": "begrijpend-lezen",
+    "difficulty": 4,
+    "question": "Hoewel de wandeling lang was, vond Amir het uitzicht de moeite waard. Welke tegenstelling wordt hier aangegeven?",
+    "answers": ["De wandeling was kort", "Het uitzicht was slecht", "De wandeling was zwaar, maar het uitzicht was mooi", "Amir wilde niet wandelen"],
+    "correctAnswer": 2,
+    "explanation": "Het woord 'hoewel' geeft een tegenstelling aan."
+  },
+  {
+    "id": 10,
+    "category": "begrijpend-lezen",
+    "difficulty": 5,
+    "question": "Een tekst beschrijft eerst de oorzaken van luchtvervuiling en daarna de gevolgen voor de gezondheid. Wat is de belangrijkste tekststructuur?",
+    "answers": ["Chronologische volgorde", "Vraag en antwoord", "Oorzaak en gevolg", "Probleem en oplossing"],
+    "correctAnswer": 2,
+    "explanation": "De tekst verbindt oorzaken van luchtvervuiling met de gevolgen ervan."
+  },
+  {
+    "id": 11,
+    "category": "taalverzorging",
+    "difficulty": 1,
+    "question": "Welk woord is correct gespeld?",
+    "answers": ["Mischien", "Misschien", "Misgien", "Mischienn"],
+    "correctAnswer": 1,
+    "explanation": "De juiste spelling is misschien."
+  },
+  {
+    "id": 12,
+    "category": "taalverzorging",
+    "difficulty": 2,
+    "question": "Wat is het meervoud van 'museum'?",
+    "answers": ["Museums", "Musea", "Museumes", "Museiën"],
+    "correctAnswer": 1,
+    "explanation": "Het gebruikelijke meervoud is musea."
+  },
+  {
+    "id": 13,
+    "category": "taalverzorging",
+    "difficulty": 3,
+    "question": "Welke zin is correct?",
+    "answers": ["Hun hebben gewonnen.", "Zij hebben gewonnen.", "Zij heeft gewonnen.", "Hun is gewonnen."],
+    "correctAnswer": 1,
+    "explanation": "Zij is hier het juiste onderwerp bij hebben."
+  },
+  {
+    "id": 14,
+    "category": "taalverzorging",
+    "difficulty": 4,
+    "question": "Welke zin bevat een correct gebruikt voltooid deelwoord?",
+    "answers": ["Hij heeft gisteren gefietst.", "Hij heeft gisteren fiets.", "Hij heeft gisteren fietste.", "Hij heeft gisteren gefietsen."],
+    "correctAnswer": 0,
+    "explanation": "Gefietst is het juiste voltooid deelwoord van fietsen."
+  },
+  {
+    "id": 15,
+    "category": "taalverzorging",
+    "difficulty": 5,
+    "question": "Welke zin heeft de juiste interpunctie?",
+    "answers": ["Als het regent blijven we binnen.", "Als het regent, blijven we binnen.", "Als, het regent blijven we binnen.", "Als het, regent blijven we binnen."],
+    "correctAnswer": 1,
+    "explanation": "Na de bijzin aan het begin van de zin komt een komma."
+  },
+  {
+    "id": 16,
+    "category": "logisch-redeneren",
+    "difficulty": 1,
+    "question": "Welk getal hoort op de volgende plek: 2, 4, 6, 8, ...?",
+    "answers": ["9", "10", "11", "12"],
+    "correctAnswer": 1,
+    "explanation": "De reeks wordt telkens met 2 verhoogd."
+  },
+  {
+    "id": 17,
+    "category": "logisch-redeneren",
+    "difficulty": 2,
+    "question": "Alle rozen zijn bloemen. Welke uitspraak is zeker waar?",
+    "answers": ["Alle bloemen zijn rozen", "Sommige rozen zijn bomen", "Elke roos is een bloem", "Geen roos is een bloem"],
+    "correctAnswer": 2,
+    "explanation": "Dit volgt rechtstreeks uit de gegeven informatie."
+  },
+  {
+    "id": 18,
+    "category": "logisch-redeneren",
+    "difficulty": 3,
+    "question": "Welke letter volgt in de reeks: A, C, E, G, ...?",
+    "answers": ["H", "I", "J", "K"],
+    "correctAnswer": 1,
+    "explanation": "Steeds wordt één letter overgeslagen. Na G volgt I."
+  },
+  {
+    "id": 19,
+    "category": "logisch-redeneren",
+    "difficulty": 4,
+    "question": "Drie machines maken in 3 minuten 3 onderdelen. Hoeveel minuten hebben 6 identieke machines nodig om 6 onderdelen te maken?",
+    "answers": ["1,5 minuut", "3 minuten", "6 minuten", "9 minuten"],
+    "correctAnswer": 1,
+    "explanation": "Elke machine maakt één onderdeel in 3 minuten. Zes machines maken tegelijk zes onderdelen."
+  },
+  {
+    "id": 20,
+    "category": "logisch-redeneren",
+    "difficulty": 5,
+    "question": "Een code bestaat uit drie verschillende cijfers. Het eerste cijfer is kleiner dan het tweede en het tweede is kleiner dan het derde. Hoeveel verschillende codes zijn mogelijk met de cijfers 1, 2, 3 en 4?",
+    "answers": ["3", "4", "6", "12"],
+    "correctAnswer": 1,
+    "explanation": "Er zijn vier mogelijke keuzes van drie cijfers: 123, 124, 134 en 234. Dat zijn er 4."
+  },
+  {
+    "id": 21,
+    "category": "rekenen",
+    "difficulty": 1,
+    "question": "Je hebt 24 knikkers en verdeelt ze eerlijk over 4 kinderen. Hoeveel knikkers krijgt ieder kind?",
+    "answers": ["4", "5", "6", "8"],
+    "correctAnswer": 2,
+    "explanation": "24 gedeeld door 4 is 6."
+  },
+  {
+    "id": 22,
+    "category": "rekenen",
+    "difficulty": 2,
+    "question": "Een trein vertrekt om 14:35 en de reis duurt 50 minuten. Hoe laat komt de trein aan?",
+    "answers": ["15:15", "15:25", "15:35", "16:25"],
+    "correctAnswer": 1,
+    "explanation": "Vijftig minuten na 14:35 is 15:25."
+  },
+  {
+    "id": 23,
+    "category": "rekenen",
+    "difficulty": 3,
+    "question": "Een recept voor 4 personen gebruikt 300 gram rijst. Hoeveel gram rijst is nodig voor 6 personen?",
+    "answers": ["400 gram", "450 gram", "500 gram", "600 gram"],
+    "correctAnswer": 1,
+    "explanation": "Per persoon is 300 ÷ 4 = 75 gram nodig. Voor 6 personen is dat 6 × 75 = 450 gram."
+  },
+  {
+    "id": 24,
+    "category": "rekenen",
+    "difficulty": 4,
+    "question": "Een fiets kost €240. De prijs stijgt eerst met 10% en daalt daarna met 10%. Wat is de nieuwe prijs?",
+    "answers": ["€240,00", "€237,60", "€240,60", "€264,00"],
+    "correctAnswer": 1,
+    "explanation": "Na de stijging is de prijs €264. Tien procent korting daarop is €26,40, dus de nieuwe prijs is €237,60."
+  },
+  {
+    "id": 25,
+    "category": "rekenen",
+    "difficulty": 5,
+    "question": "Een vat is voor 3/5 gevuld. Na het toevoegen van 24 liter is het vat voor 9/10 gevuld. Hoeveel liter past er in het hele vat?",
+    "answers": ["60 liter", "70 liter", "80 liter", "90 liter"],
+    "correctAnswer": 2,
+    "explanation": "Het verschil is 9/10 - 3/5 = 3/10 van het vat. Als 3/10 gelijk is aan 24 liter, is de totale inhoud 80 liter."
+  },
+  {
+    "id": 41,
+    "category": "rekenen",
+    "difficulty": 1,
+    "question": "Hoeveel is 9 + 6?",
+    "answers": ["13", "14", "15", "16"],
+    "correctAnswer": 2,
+    "explanation": "9 + 6 = 15."
+  },
+  {
+    "id": 42,
+    "category": "rekenen",
+    "difficulty": 1,
+    "question": "Hoeveel is 14 - 8?",
+    "answers": ["5", "6", "7", "8"],
+    "correctAnswer": 1,
+    "explanation": "14 - 8 = 6."
+  },
+  {
+    "id": 43,
+    "category": "rekenen",
+    "difficulty": 1,
+    "question": "Hoeveel is 3 × 4?",
+    "answers": ["7", "10", "12", "16"],
+    "correctAnswer": 2,
+    "explanation": "3 × 4 = 12."
+  },
+  {
+    "id": 44,
+    "category": "rekenen",
+    "difficulty": 1,
+    "question": "Hoeveel is 20 ÷ 5?",
+    "answers": ["3", "4", "5", "6"],
+    "correctAnswer": 1,
+    "explanation": "20 verdeeld in groepjes van 5 geeft 4 groepjes."
+  },
+  {
+    "id": 45,
+    "category": "rekenen",
+    "difficulty": 1,
+    "question": "Welk getal komt direct vóór 30?",
+    "answers": ["28", "29", "31", "32"],
+    "correctAnswer": 1,
+    "explanation": "29 komt direct vóór 30."
+  },
+  {
+    "id": 46,
+    "category": "rekenen",
+    "difficulty": 1,
+    "question": "Je hebt 7 rode en 8 blauwe kralen. Hoeveel kralen heb je samen?",
+    "answers": ["14", "15", "16", "17"],
+    "correctAnswer": 1,
+    "explanation": "7 + 8 = 15 kralen."
+  },
+  {
+    "id": 47,
+    "category": "rekenen",
+    "difficulty": 1,
+    "question": "In een doos zitten 5 rijen met elk 5 appels. Hoeveel appels zijn dat?",
+    "answers": ["10", "20", "25", "30"],
+    "correctAnswer": 2,
+    "explanation": "5 rijen van 5 is 5 × 5 = 25 appels."
+  },
+  {
+    "id": 48,
+    "category": "rekenen",
+    "difficulty": 1,
+    "question": "Hoeveel is 18 - 9?",
+    "answers": ["7", "8", "9", "10"],
+    "correctAnswer": 2,
+    "explanation": "18 - 9 = 9."
+  },
+  {
+    "id": 49,
+    "category": "rekenen",
+    "difficulty": 2,
+    "question": "Hoeveel is 36 ÷ 4?",
+    "answers": ["8", "9", "10", "12"],
+    "correctAnswer": 1,
+    "explanation": "36 ÷ 4 = 9."
+  },
+  {
+    "id": 50,
+    "category": "rekenen",
+    "difficulty": 2,
+    "question": "Hoeveel is 7 × 8?",
+    "answers": ["48", "54", "56", "64"],
+    "correctAnswer": 2,
+    "explanation": "7 × 8 = 56."
+  },
+  {
+    "id": 51,
+    "category": "rekenen",
+    "difficulty": 2,
+    "question": "Een speelgoedauto kost €125 en een bal kost €75. Hoeveel kosten ze samen?",
+    "answers": ["€180", "€190", "€200", "€210"],
+    "correctAnswer": 2,
+    "explanation": "€125 + €75 = €200."
+  },
+  {
+    "id": 52,
+    "category": "rekenen",
+    "difficulty": 2,
+    "question": "Een schrift kost €3,50 en een pen kost €2,00. Hoeveel betaal je samen?",
+    "answers": ["€4,50", "€5,00", "€5,50", "€6,00"],
+    "correctAnswer": 2,
+    "explanation": "€3,50 + €2,00 = €5,50."
+  },
+  {
+    "id": 53,
+    "category": "rekenen",
+    "difficulty": 2,
+    "question": "Een rechthoek is 5 cm lang en 3 cm breed. Wat is de omtrek?",
+    "answers": ["8 cm", "15 cm", "16 cm", "20 cm"],
+    "correctAnswer": 2,
+    "explanation": "De omtrek is 5 + 3 + 5 + 3 = 16 cm."
+  },
+  {
+    "id": 54,
+    "category": "rekenen",
+    "difficulty": 2,
+    "question": "Wat is de helft van 18?",
+    "answers": ["8", "9", "10", "12"],
+    "correctAnswer": 1,
+    "explanation": "18 ÷ 2 = 9."
+  },
+  {
+    "id": 55,
+    "category": "rekenen",
+    "difficulty": 2,
+    "question": "Een film begint om 9:20 en duurt 35 minuten. Hoe laat is de film afgelopen?",
+    "answers": ["9:45", "9:55", "10:05", "10:15"],
+    "correctAnswer": 1,
+    "explanation": "20 minuten na 9:20 is 9:40; nog 15 minuten later is 9:55."
+  },
+  {
+    "id": 56,
+    "category": "rekenen",
+    "difficulty": 2,
+    "question": "Er zijn 4 pakjes met in elk pakje 6 potloden. Hoeveel potloden zijn er?",
+    "answers": ["10", "20", "24", "30"],
+    "correctAnswer": 2,
+    "explanation": "4 × 6 = 24 potloden."
+  },
+  {
+    "id": 57,
+    "category": "rekenen",
+    "difficulty": 3,
+    "question": "Wat is 3/4 van 28?",
+    "answers": ["7", "14", "21", "24"],
+    "correctAnswer": 2,
+    "explanation": "28 ÷ 4 = 7 en 7 × 3 = 21."
+  },
+  {
+    "id": 58,
+    "category": "rekenen",
+    "difficulty": 3,
+    "question": "De verhouding rode tot blauwe knikkers is 2 : 5. Er zijn 6 rode knikkers. Hoeveel blauwe knikkers zijn er?",
+    "answers": ["10", "12", "15", "18"],
+    "correctAnswer": 2,
+    "explanation": "De verhouding is 2 keer zo groot geworden: 2 × 3 = 6. Dus 5 × 3 = 15 blauwe knikkers."
+  },
+  {
+    "id": 59,
+    "category": "rekenen",
+    "difficulty": 3,
+    "question": "Hoeveel is 2,4 × 6?",
+    "answers": ["12,4", "14,4", "16,4", "18,4"],
+    "correctAnswer": 1,
+    "explanation": "24 × 6 = 144. Met één cijfer achter de komma is dat 14,4."
+  },
+  {
+    "id": 60,
+    "category": "rekenen",
+    "difficulty": 3,
+    "question": "Een doos bevat 12 zakjes met elk 4 koekjes. Hoeveel koekjes zijn dat?",
+    "answers": ["36", "42", "48", "52"],
+    "correctAnswer": 2,
+    "explanation": "12 × 4 = 48 koekjes."
+  },
+  {
+    "id": 61,
+    "category": "rekenen",
+    "difficulty": 3,
+    "question": "Een driehoek heeft een basis van 10 cm en een hoogte van 6 cm. Wat is de oppervlakte?",
+    "answers": ["16 cm²", "30 cm²", "60 cm²", "120 cm²"],
+    "correctAnswer": 1,
+    "explanation": "De oppervlakte van een driehoek is basis × hoogte ÷ 2: 10 × 6 ÷ 2 = 30 cm²."
+  },
+  {
+    "id": 62,
+    "category": "rekenen",
+    "difficulty": 3,
+    "question": "Hoeveel is 30% van 90?",
+    "answers": ["18", "27", "30", "36"],
+    "correctAnswer": 1,
+    "explanation": "10% van 90 is 9. Dus 30% is 3 × 9 = 27."
+  },
+  {
+    "id": 63,
+    "category": "rekenen",
+    "difficulty": 3,
+    "question": "Hoeveel is 2/3 + 1/6?",
+    "answers": ["3/9", "3/6", "5/6", "1"],
+    "correctAnswer": 2,
+    "explanation": "2/3 is 4/6. Dus 4/6 + 1/6 = 5/6."
+  },
+  {
+    "id": 64,
+    "category": "rekenen",
+    "difficulty": 3,
+    "question": "Wat is het gemiddelde van 6, 8 en 10?",
+    "answers": ["7", "8", "9", "10"],
+    "correctAnswer": 1,
+    "explanation": "(6 + 8 + 10) ÷ 3 = 24 ÷ 3 = 8."
+  },
+  {
+    "id": 65,
+    "category": "rekenen",
+    "difficulty": 4,
+    "question": "Los op: 3x + 7 = 31. Wat is x?",
+    "answers": ["6", "7", "8", "9"],
+    "correctAnswer": 2,
+    "explanation": "Trek 7 af: 3x = 24. Deel door 3: x = 8."
+  },
+  {
+    "id": 66,
+    "category": "rekenen",
+    "difficulty": 4,
+    "question": "Een trui van €150 krijgt 20% korting. Wat is de nieuwe prijs?",
+    "answers": ["€110", "€120", "€125", "€130"],
+    "correctAnswer": 1,
+    "explanation": "20% van €150 is €30. €150 - €30 = €120."
+  },
+  {
+    "id": 67,
+    "category": "rekenen",
+    "difficulty": 4,
+    "question": "Een rechthoekige driehoek heeft rechthoekszijden van 6 cm en 8 cm. Hoe lang is de schuine zijde?",
+    "answers": ["9 cm", "10 cm", "12 cm", "14 cm"],
+    "correctAnswer": 1,
+    "explanation": "Volgens Pythagoras is de schuine zijde √(6² + 8²) = √100 = 10 cm."
+  },
+  {
+    "id": 68,
+    "category": "rekenen",
+    "difficulty": 4,
+    "question": "Driekwart van een getal is 27. Wat is het getal?",
+    "answers": ["32", "34", "36", "40"],
+    "correctAnswer": 2,
+    "explanation": "Als 3/4 gelijk is aan 27, is 1/4 gelijk aan 9. Het hele getal is 4 × 9 = 36."
+  },
+  {
+    "id": 69,
+    "category": "rekenen",
+    "difficulty": 4,
+    "question": "Op een kaart met schaal 1 : 50.000 is een route 3 cm lang. Hoe lang is de route in werkelijkheid?",
+    "answers": ["150 m", "500 m", "1,5 km", "15 km"],
+    "correctAnswer": 2,
+    "explanation": "3 × 50.000 cm = 150.000 cm = 1.500 m = 1,5 km."
+  },
+  {
+    "id": 70,
+    "category": "rekenen",
+    "difficulty": 4,
+    "question": "Je gooit één keer met een gewone dobbelsteen. Wat is de kans op een even aantal ogen?",
+    "answers": ["1/6", "1/3", "1/2", "2/3"],
+    "correctAnswer": 2,
+    "explanation": "De even uitkomsten zijn 2, 4 en 6: 3 van de 6 mogelijkheden, dus 1/2."
+  },
+  {
+    "id": 71,
+    "category": "rekenen",
+    "difficulty": 4,
+    "question": "Een fietser rijdt 45 km in 1,5 uur. Wat is de gemiddelde snelheid?",
+    "answers": ["25 km/u", "30 km/u", "35 km/u", "40 km/u"],
+    "correctAnswer": 1,
+    "explanation": "Gemiddelde snelheid is afstand ÷ tijd: 45 ÷ 1,5 = 30 km/u."
+  },
+  {
+    "id": 72,
+    "category": "rekenen",
+    "difficulty": 4,
+    "question": "Een rechthoek heeft een oppervlakte van 84 cm² en is 7 cm breed. Hoe lang is de rechthoek?",
+    "answers": ["10 cm", "11 cm", "12 cm", "14 cm"],
+    "correctAnswer": 2,
+    "explanation": "Lengte = oppervlakte ÷ breedte = 84 ÷ 7 = 12 cm."
+  },
+  {
+    "id": 73,
+    "category": "rekenen",
+    "difficulty": 5,
+    "question": "Los het stelsel op: x + y = 20 en x - y = 6. Wat is x?",
+    "answers": ["7", "10", "13", "16"],
+    "correctAnswer": 2,
+    "explanation": "Tel de vergelijkingen op: 2x = 26. Dus x = 13."
+  },
+  {
+    "id": 74,
+    "category": "rekenen",
+    "difficulty": 5,
+    "question": "Je zet €400 opzij met enkelvoudige rente van 5% per jaar. Hoeveel staat er na 3 jaar op de rekening?",
+    "answers": ["€440", "€450", "€460", "€463,05"],
+    "correctAnswer": 2,
+    "explanation": "5% van €400 is €20 per jaar. Na 3 jaar is dat €60 rente, samen €460."
+  },
+  {
+    "id": 75,
+    "category": "rekenen",
+    "difficulty": 5,
+    "question": "Een rechthoekig zwembad is 8 m lang, 5 m breed en 2 m diep. Hoeveel kubieke meter water past erin?",
+    "answers": ["40 m³", "60 m³", "80 m³", "100 m³"],
+    "correctAnswer": 2,
+    "explanation": "De inhoud is lengte × breedte × diepte: 8 × 5 × 2 = 80 m³."
+  },
+  {
+    "id": 76,
+    "category": "rekenen",
+    "difficulty": 5,
+    "question": "Een prijs stijgt met 20% en daalt daarna met 20%. De beginprijs is €120. Wat is de eindprijs?",
+    "answers": ["€115,20", "€120,00", "€124,80", "€144,00"],
+    "correctAnswer": 0,
+    "explanation": "Na de stijging is de prijs €144. Een daling van 20% daarvan is €28,80. €144 - €28,80 = €115,20."
+  },
+  {
+    "id": 77,
+    "category": "rekenen",
+    "difficulty": 5,
+    "question": "Een tas bevat 3 rode, 2 blauwe en 5 groene knikkers. Je pakt blind één knikker. Wat is de kans dat deze niet groen is?",
+    "answers": ["1/5", "1/2", "3/5", "2/3"],
+    "correctAnswer": 1,
+    "explanation": "Er zijn 5 niet-groene knikkers van in totaal 10. De kans is 5/10 = 1/2."
+  },
+  {
+    "id": 78,
+    "category": "rekenen",
+    "difficulty": 5,
+    "question": "Een getal wordt eerst met 3 vermenigvuldigd en daarna wordt er 5 bij opgeteld. De uitkomst is 32. Wat was het getal?",
+    "answers": ["7", "8", "9", "11"],
+    "correctAnswer": 2,
+    "explanation": "Trek eerst 5 af: 32 - 5 = 27. Deel daarna door 3: 27 ÷ 3 = 9."
+  },
+  {
+    "id": 79,
+    "category": "rekenen",
+    "difficulty": 5,
+    "question": "Een wandelaar loopt 2,4 km in 30 minuten. Wat is de gemiddelde snelheid in km per uur?",
+    "answers": ["2,4 km/u", "3,6 km/u", "4,8 km/u", "7,2 km/u"],
+    "correctAnswer": 2,
+    "explanation": "30 minuten is een half uur. 2,4 km in een half uur is 4,8 km in een heel uur."
+  },
+  {
+    "id": 80,
+    "category": "rekenen",
+    "difficulty": 5,
+    "question": "Een rechthoekige tuin heeft een omtrek van 50 meter. De lengte is 15 meter. Wat is de oppervlakte?",
+    "answers": ["100 m²", "125 m²", "150 m²", "175 m²"],
+    "correctAnswer": 2,
+    "explanation": "Twee lengtes zijn samen 30 m, dus de twee breedtes samen zijn 20 m. De breedte is 10 m en de oppervlakte is 15 × 10 = 150 m²."
+  },
+  {
+    "id": 26,
+    "category": "begrijpend-lezen",
+    "difficulty": 1,
+    "question": "Mila zet haar sportschoenen klaar en pakt haar voetbal. Wat gaat ze waarschijnlijk doen?",
+    "answers": ["Voetballen", "Koken", "Slapen", "Lezen"],
+    "correctAnswer": 0,
+    "explanation": "De voetbal en sportschoenen wijzen erop dat Mila gaat voetballen."
+  },
+  {
+    "id": 27,
+    "category": "begrijpend-lezen",
+    "difficulty": 2,
+    "question": "De schooltuin was na de vakantie droog. De leerlingen gaven de planten water en enkele dagen later verschenen nieuwe blaadjes. Wat hielp de planten groeien?",
+    "answers": ["De vakantie", "Het water geven", "De droge grond", "De oude blaadjes"],
+    "correctAnswer": 1,
+    "explanation": "In de tekst krijgen de planten water voordat er nieuwe blaadjes verschijnen."
+  },
+  {
+    "id": 28,
+    "category": "begrijpend-lezen",
+    "difficulty": 3,
+    "question": "De gemeente plaatste extra fietsenrekken bij het station. Zo kunnen meer reizigers hun fiets veilig stallen en daarna met de trein verder reizen. Wat is het belangrijkste doel van de nieuwe rekken?",
+    "answers": ["Treinen sneller laten rijden", "Meer ruimte bieden om fietsen te stallen", "Fietsen bij het station verbieden", "Het station kleiner maken"],
+    "correctAnswer": 1,
+    "explanation": "De tekst zegt dat reizigers hun fiets veilig moeten kunnen stallen."
+  },
+  {
+    "id": 29,
+    "category": "begrijpend-lezen",
+    "difficulty": 4,
+    "question": "Noor wilde eerst met de auto naar haar werk. Toen ze hoorde dat er wegwerkzaamheden waren, besloot ze de trein te nemen. Waarom veranderde Noor haar plan?",
+    "answers": ["Ze had geen werk meer", "De trein was gratis", "Ze verwachtte vertraging op de weg", "Ze wilde haar auto verkopen"],
+    "correctAnswer": 2,
+    "explanation": "De wegwerkzaamheden waren de reden om voor een andere manier van reizen te kiezen."
+  },
+  {
+    "id": 30,
+    "category": "begrijpend-lezen",
+    "difficulty": 5,
+    "question": "Een artikel beschrijft hoe een dorp vroeger zonder brug moeilijk bereikbaar was. Daarna vertelt het hoe de nieuwe brug reistijd bespaart en de lokale winkels meer bezoekers krijgt. Wat is de hoofdgedachte?",
+    "answers": ["Bruggen zijn altijd duur om te bouwen", "De nieuwe brug verbetert de bereikbaarheid en helpt het dorp", "Lokale winkels willen minder bezoekers", "Het dorp ligt naast een grote stad"],
+    "correctAnswer": 1,
+    "explanation": "De tekst noemt zowel kortere reistijd als meer bezoekers als voordelen van de brug."
+  },
+  {
+    "id": 31,
+    "category": "taalverzorging",
+    "difficulty": 1,
+    "question": "Welk woord is correct gespeld?",
+    "answers": ["Onmiddelijk", "Onmiddellijk", "Onmiddelijkk", "Onmidelijk"],
+    "correctAnswer": 1,
+    "explanation": "Onmiddellijk schrijf je met dubbel l en dubbel d."
+  },
+  {
+    "id": 32,
+    "category": "taalverzorging",
+    "difficulty": 2,
+    "question": "Wat is de verleden tijd van 'verhuizen' in de zin: 'Zij ___ vorig jaar naar Utrecht.'?",
+    "answers": ["verhuiste", "verhuisde", "verhuizen", "verhuist"],
+    "correctAnswer": 1,
+    "explanation": "Verhuizen krijgt in de verleden tijd de uitgang -de: zij verhuisde."
+  },
+  {
+    "id": 33,
+    "category": "taalverzorging",
+    "difficulty": 3,
+    "question": "Welke zin heeft de juiste werkwoordsvorm?",
+    "answers": ["Morgen gebeurd er iets bijzonders.", "Morgen gebeurt er iets bijzonders.", "Morgen gebeurdt er iets bijzonders.", "Morgen geburen er iets bijzonders."],
+    "correctAnswer": 1,
+    "explanation": "Het onderwerp 'iets' is derde persoon enkelvoud: het gebeurt."
+  },
+  {
+    "id": 34,
+    "category": "taalverzorging",
+    "difficulty": 4,
+    "question": "Welke zin is correct?",
+    "answers": ["De meisje loopt naar huis.", "Het meisje lopen naar huis.", "Het meisje loopt naar huis.", "Een meisje lopen naar huis."],
+    "correctAnswer": 2,
+    "explanation": "Meisje is een het-woord en is enkelvoud, dus 'het meisje loopt'."
+  },
+  {
+    "id": 35,
+    "category": "taalverzorging",
+    "difficulty": 5,
+    "question": "Welke zin gebruikt 'hen' correct?",
+    "answers": ["Hen hebben de wedstrijd gewonnen.", "Ik geef hen de uitslag.", "Ik zie hen bij het station.", "Hen gaan straks naar huis."],
+    "correctAnswer": 2,
+    "explanation": "Hen gebruik je als lijdend voorwerp of na een voorzetsel. In 'Ik zie hen' is hen het lijdend voorwerp."
+  },
+  {
+    "id": 36,
+    "category": "logisch-redeneren",
+    "difficulty": 1,
+    "question": "Welk getal volgt in de reeks: 5, 10, 15, 20, ...?",
+    "answers": ["22", "24", "25", "30"],
+    "correctAnswer": 2,
+    "explanation": "Er komt telkens 5 bij, dus na 20 komt 25."
+  },
+  {
+    "id": 37,
+    "category": "logisch-redeneren",
+    "difficulty": 2,
+    "question": "Lina is ouder dan Mo. Mo is ouder dan Sam. Wie is het jongst?",
+    "answers": ["Lina", "Mo", "Sam", "Dat kun je niet weten"],
+    "correctAnswer": 2,
+    "explanation": "Omdat Lina ouder is dan Mo en Mo ouder is dan Sam, is Sam het jongst."
+  },
+  {
+    "id": 38,
+    "category": "logisch-redeneren",
+    "difficulty": 3,
+    "question": "Welke letter volgt in de reeks: Z, W, T, Q, ...?",
+    "answers": ["N", "O", "M", "L"],
+    "correctAnswer": 0,
+    "explanation": "Elke stap gaat drie letters terug in het alfabet: Z, W, T, Q, N."
+  },
+  {
+    "id": 39,
+    "category": "logisch-redeneren",
+    "difficulty": 4,
+    "question": "In een lade liggen rode, blauwe en groene sokken. Hoeveel sokken moet je in het donker minimaal pakken om zeker twee sokken van dezelfde kleur te hebben?",
+    "answers": ["2", "3", "4", "6"],
+    "correctAnswer": 2,
+    "explanation": "Met drie sokken kun je nog één van elke kleur hebben. De vierde sok moet een kleur herhalen."
+  },
+  {
+    "id": 40,
+    "category": "logisch-redeneren",
+    "difficulty": 5,
+    "question": "Een code bestaat uit twee verschillende cijfers van 1 tot en met 5. Hoeveel codes zijn mogelijk als het eerste cijfer groter moet zijn dan het tweede?",
+    "answers": ["5", "8", "10", "20"],
+    "correctAnswer": 2,
+    "explanation": "Er zijn 10 paren met verschillende cijfers; bij elk paar is precies één volgorde dalend. Dat zijn er 10."
+  }
+]

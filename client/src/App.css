@@ -1,0 +1,202 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f1ff;
+  color: #282044;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.welcome {
+  width: 100%;
+  max-width: 650px;
+  padding: 40px 32px;
+  text-align: center;
+  background: white;
+  border-radius: 24px;
+  box-shadow: 0 15px 50px rgba(50, 30, 100, 0.1);
+}
+
+.subtitle {
+  color: #ed4385;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+h1 {
+  color: #5722cd;
+  font-size: clamp(2rem, 8vw, 4rem);
+  margin: 16px 0;
+}
+
+.welcome > p {
+  line-height: 1.6;
+}
+
+.status {
+  margin-top: 25px;
+  padding: 12px 16px;
+  background: #f3f6f9;
+  border-radius: 12px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.lobby-form,
+.lobby {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.lobby-form h2,
+.lobby h2 {
+  color: #5722cd;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin: 18px 0 8px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #d9d5e8;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  margin-top: 16px;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  background: #5722cd;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #4845e4;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.secondary-button {
+  background: #ed4385;
+}
+
+.divider {
+  margin: 22px 0;
+  text-align: center;
+  color: #888;
+}
+
+.error {
+  color: #c62828;
+  font-weight: bold;
+}
+
+.room-code {
+  padding: 18px;
+  margin: 15px 0;
+  text-align: center;
+  background: #f3f1ff;
+  border-radius: 12px;
+  color: #5722cd;
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 6px;
+}
+
+.player-list {
+  padding: 0;
+  list-style: none;
+}
+
+.player-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px;
+  margin: 8px 0;
+  background: #f3f6f9;
+  border-radius: 8px;
+}
+
+.player-list span {
+  color: #ed4385;
+  font-weight: bold;
+}
+
+
+.quiz-settings {
+  margin-top: 30px;
+  padding: 20px;
+  background: #f3f1ff;
+  border-radius: 14px;
+}
+
+.quiz-settings h3 {
+  color: #5722cd;
+  text-align: center;
+  margin-top: 0;
+}
+
+.quiz-settings select {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #d9d5e8;
+  border-radius: 10px;
+  background: white;
+  font-size: 16px;
+}
+
+.quiz-settings select:disabled {
+  background: #e9e7f0;
+  color: #666;
+  cursor: not-allowed;
+}
+
+.settings-info {
+  color: #666;
+  font-size: 14px;
+  text-align: center;
+}
+
+.success {
+  color: #16803c;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.game-started {
+  margin-top: 24px;
+  padding: 20px;
+  text-align: center;
+  background: #e9f8ee;
+  border-radius: 12px;
+  color: #176b35;
+}
+
+.game-started h3 {
+  margin-top: 0;
+}
